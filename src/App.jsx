@@ -1,5 +1,13 @@
+import { Navbar, CardGrid } from "./components"
+
 export const App = () => {
   return (
-    <h1>Hola loquequeraiwn</h1>
+    <div>
+      <Navbar />
+
+      <div className="container mt-4">
+        <CardGrid />
+      </div>
+    </div>
   )
 }
